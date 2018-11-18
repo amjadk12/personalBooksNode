@@ -1,0 +1,20 @@
+{
+  "name": "personalBooksNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amjadk12/personalBooksNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amjadk12/personalBooksNode/issues"
+  },
+  "homepage": "https://github.com/amjadk12/personalBooksNode#readme"
+}
