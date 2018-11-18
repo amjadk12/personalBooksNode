@@ -28,3 +28,8 @@ set environemnt vairiables
 
 > set NODE_ENV=development
 > set PORT=5050
+
+step VII:
+set the configuration settings
+
+> npm i config
