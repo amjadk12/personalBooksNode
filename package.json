@@ -19,7 +19,8 @@
   "homepage": "https://github.com/amjadk12/personalBooksNode#readme",
   "dependencies": {
     "config": "^2.0.1",
+    "cors": "^2.8.4",
     "express": "^4.16.4",
-    "mongoose": "^5.3.12"
+    "mongoose": "^5.0.2"
   }
 }

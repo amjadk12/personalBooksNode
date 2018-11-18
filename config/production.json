@@ -1,5 +1,6 @@
 {
   "name": "Personal Books-Prod",
+  "db": "personal_db",
   "mail": {
     "host": "prod-mail-server"
   }

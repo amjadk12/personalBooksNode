@@ -1,3 +1,4 @@
 {
-  "name": "Personal Books"
+  "name": "Personal Books",
+  "db": "personal_db"
 }

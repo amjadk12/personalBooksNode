@@ -33,3 +33,8 @@ step VII:
 set the configuration settings
 
 > npm i config
+
+step VIII:
+install the MongoDB
+
+> npm i mongoose
