@@ -22,3 +22,9 @@ for this you need to have EXPRESS
 
 step V:
 Start writing REST APIs...
+
+step VI:
+set environemnt vairiables
+
+> set NODE_ENV=development
+> set PORT=5050

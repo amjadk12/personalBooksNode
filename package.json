@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/amjadk12/personalBooksNode#readme",
   "dependencies": {
+    "config": "^2.0.1",
     "express": "^4.16.4"
   }
 }
