@@ -38,3 +38,14 @@ step VIII:
 install the MongoDB
 
 > npm i mongoose
+
+step IX:
+Coonected to DB and create the seperate startup for db connection - Single responsibility principle
+
+step X:
+Implement the custom middleware function for async and error
+
+step XI:
+Created the Model and Router for Books
+
+step XII: testing of the API get and post using Postman tool

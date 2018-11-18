@@ -12,6 +12,6 @@ module.exports = function() {
       { useNewUrlParser: true }
     )
     .then(() => {
-      console.log(`Conneted to ${db}...`);
+      console.log(`Successfully conneted to db...`);
     });
 };
