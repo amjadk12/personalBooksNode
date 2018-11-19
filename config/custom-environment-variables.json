@@ -1,0 +1,4 @@
+{
+  "db": "personal_db",
+  "jwtPrivateKey": "personalBooks_jwtPrivateKey"
+}

@@ -1,4 +1,6 @@
 {
+  "jwtPrivateKey": "personalBooks_jwtPrivateKey",
   "name": "Personal Books",
-  "db": "personal_db"
+  "db": "personal_db",
+  "requiresAuth": false
 }
