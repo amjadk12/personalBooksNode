@@ -1,6 +1,7 @@
 {
   "name": "Personal Books-Prod",
   "db": "personal_db",
+  "jwtPrivateKey": "personalBooks_jwtPrivateKey",
   "mail": {
     "host": "prod-mail-server"
   }
