@@ -23,7 +23,30 @@ for this you need to have EXPRESS
 step V:
 Start writing REST APIs...
 
+Note : Incase of heroku deployment plese prefix with "heroku config:" for example,
+
+> set heroku config:NODE_ENV=development
+
 step VI:
+set the configuration settings
+
+> npm i config
+
+step VII:
+install the MongoDB
+
+> npm i mongoose
+
+step VIII:
+Coonected to DB and create the seperate startup for db connection - Single responsibility principle
+
+step IX:
+Implement the custom middleware function for async and error
+
+step X:
+Created the Model and Router for Books
+
+step XI:
 set environemnt the below environment vairiables to local machine,
 
 > set NODE_ENV=development (You can set environemnt like Production/Development -- Make sure the "Config" must consists of respective .json file with respective configuration)
@@ -31,35 +54,15 @@ set environemnt the below environment vairiables to local machine,
 > set DB_CON=m<Mongo DB connection string> (Please get the connection string from MongoDB environment)
 > set personalBooks_jwtPrivateKey=pruTest12E4FG ((This is private key use to create Java Script Token - feel free to change as per your need))
 
-Note : Incase of heroku deployment plese prefix with "heroku config:" for example,
+step XII:
 
-> set heroku config:NODE_ENV=development
-
-step VII:
-set the configuration settings
-
-> npm i config
-
-step VIII:
-install the MongoDB
-
-> npm i mongoose
-
-step IX:
-Coonected to DB and create the seperate startup for db connection - Single responsibility principle
-
-step X:
-Implement the custom middleware function for async and error
-
-step XI:
-Created the Model and Router for Books
-
-step XII: testing of the API get and post using Postman tool
-My suggestion is to use Postman tool to test,
-i. GET http://localhost:5050/api/books (fetch all books from Mongo DB)
-ii. POST http://localhost:5050/api/books (add the book to Mongo DB)
-iii.POST http://localhost:5050/api/users (register the new user)
-iV. POST http://localhost:5050/api/auth (login the user using - username and password : this shoul return the JSON Web Token)
+> npm start
+> step XII: testing of the API get and post using Postman tool
+> My suggestion is to use Postman tool to test,
+> i. GET http://localhost:5050/api/books (fetch all books from Mongo DB)
+> ii. POST http://localhost:5050/api/books (add the book to Mongo DB)
+> iii.POST http://localhost:5050/api/users (register the new user)
+> iV. POST http://localhost:5050/api/auth (login the user using - username and password : this shoul return the JSON Web Token)
 
 Please pass the for POST request ii, iii and iV respectively,
 ii.
